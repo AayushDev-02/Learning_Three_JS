@@ -13,12 +13,14 @@ const App = () => {
       {/* this is our box or cube */}
 
       {/* grouping the cubes */}
-      <group position={[0,0,1]}>
+      {/* <group position={[0,0,1]}>
         <Cube position={[1, 0, 0]} color={"red"} size={[1, 1, 1]} />
         <Cube position={[-1, 0, 0]} color={"blue"} size={[1, 1, 1]} />
         <Cube position={[0, 1, 0]} color={"green"} size={[1, 1, 1]} />
         <Cube position={[0, -1, 0]} color={"yellow"} size={[1, 1, 1]} />
-      </group>
+      </group> */}
+
+      <Cube position={[0,0,0]} size={[1,1,1]} color={"orange"}/>
 
     </Canvas>
 
